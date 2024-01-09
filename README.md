@@ -15,9 +15,9 @@
 | No  | Description             | Link                                                    |
 | --- | ----------------------- | ------------------------------------------------------- |
 | 1   | Introduction            | [Click Here](#introduction)                             |
-| 2   | Fitur-Fitur Website     | [Click Here](#website-ini-memiliki-fitur-fitur-berikut) |
-| 3   | Which Is Use            | [Click Here](#which-is-used)                            |
-| 4   | How To Run This Project | [Click Here](#how-to-run-this-project)                  |
+| 2   | Fitur-fitur Website     | [Click Here](#fitur-fitur-website) |
+| 3   | What is used            | [Click Here](#what-is-used)                            |
+| 4   | How to run this project | [Click Here](#how-to-run-this-project)                  |
 
 ### Introduction
 **Website SchoolManagement adalah sistem platform inovatif yang didesain untuk memudahkan pengelolaan sekolah secara efisien dan terpadu.** Dengan School Management, website SchoolManagement membawa pengalaman pendidikan ke tingkat yang lebih tinggi, mendukung efektivitas, transparansi, dan kemudahan akses dalam mengelola berbagai aspek kegiatan sekolah seperti administrasi sekolah, manajemen siswa, keuangan dan lain-lain.
@@ -34,7 +34,7 @@ Website SchoolManagement yang dibuat dengan **Python**, **Django**, dan **sqlite
 
 Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang umumnya digunakan oleh aplikasi berbasis Python yang menggunakan SQLite sebagai sistem manajemen basis data (DBMS). SQLite adalah library C yang memberikan fungsi lengkap sebuah basis data SQL tanpa memerlukan server terpisah dan pengaturan konfigurasi yang kompleks. SQLite adalah DBMS self-contained yang dapat digunakan dengan mudah dan ringan. Dalam konteks Django sebuah framework web Python, **db.sqlite3** biasanya muncul sebagai file database default ketika kita membuat proyek baru. Django menggunakan SQLite sebagai database default karena kemudahan konfigurasi dan kecocokan dengan banyak proyek kecil hingga menengah. 
 
-### Website ini memiliki fitur-fitur berikut:
+### Fitur-fitur website :
 
 > **Admin**
 - Admin dapat mendaftarkan akun mereka sendiri tanpa persetujuan dari pihak lain. Setelah akun berhasil dibuat, admin dapat melakukan login untuk mengakses sistem.
@@ -68,7 +68,7 @@ Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang 
 - Siswa dapat melihat detail seperti kehadiran.
 
 
-### Which Is Used
+### What is used
 
 1. **Django**
    
@@ -99,7 +99,7 @@ Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang 
 
 
 
-### How To Run This Project?
+### How To Run This Project
 
 - Unduh Python dari situs resminya : https://www.python.org/downloads/
   
