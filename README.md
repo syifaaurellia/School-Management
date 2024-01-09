@@ -101,15 +101,39 @@ Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang 
 
 ### How To Run This Project?
 
-1. **Instalasi Python**
-
 - Unduh Python dari situs resminya : https://www.python.org/downloads/
-
+  
 - Saat instalasi, pastikan untuk memberi centang pada kotak "Add Python to PATH". Ini akan memudahkan kita dalam menjalankan Python melalui perintah di terminal.
+  
+- Open Terminal (cmd) dan Jalankan perintah berikut:
 
-3. **Mengunduh dan menyiapkan project**
-   ```
-   https://github.com/syifaaurellia/OnlineQuiz.git
-   ```
+```
+ python -m pip install -r requirements.txt 
+```
 
-- Silahkan clone repository di atas atau download ZIP, kemudian extract file ZIP tersebut ke sebuah folder.
+- Silahkan clone repository di bawah ini atau download ZIP, kemudian extract file ZIP tersebut ke sebuah folder.
+
+```
+https://github.com/syifaaurellia/SchoolManagement.git
+```
+  
+- Pindah ke folder project di terminal. Kemudian jalankan perintah berikut :
+  
+```
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+```
+
+- Sekarang masukkan URL berikut di Browser yang terpasang di PC anda (Chrome, Firefox, Edge dan lain-lain)
+
+```
+http://127.0.0.1:8000/
+```
+
+- Setelah itu web tampilan project django sudah berjalan dan tampil pada browser anda.
+
+
+## Semoga Bermanfaat, Terima Kasih 
+
+### - Kelompok 5 -
