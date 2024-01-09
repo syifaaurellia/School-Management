@@ -1,2 +1,115 @@
 # SchoolManagement
-Tugas Kelompok (UAS Object Oriented Programming)
+
+## Anggota Kelompok <br>
+
+| Nama                      | NIM       | Kelas     | Mata Kuliah                 |
+| ------------------------- | --------- | --------- | --------------------------- |
+| Syifa Aurellia Rahma      | 312210009 | TI.22.A1  | Object Oriented Programming |
+| Tiara Putri               | 312210064 | TI.22.A1  | Object Oriented Programming |
+| Fathia Wardah S.Djawas    | 312210196 | TI.22.A1  | Object Oriented Programming |
+| Aas Novitasari            | 312210167 | TI.22.A1  | Object Oriented Programming |
+
+
+## Daftar Isi <br>
+
+| No  | Description             | Link                                                    |
+| --- | ----------------------- | ------------------------------------------------------- |
+| 1   | Introduction            | [Click Here](#introduction)                             |
+| 2   | Fitur-Fitur Website     | [Click Here](#website-ini-memiliki-fitur-fitur-berikut) |
+| 3   | Which Is Use            | [Click Here](#which-is-used)                            |
+| 4   | How To Run This Project | [Click Here](#how-to-run-this-project)                  |
+
+### Introduction
+**Website SchoolManagement adalah sistem platform inovatif yang didesain untuk memudahkan pengelolaan sekolah secara efisien dan terpadu.** Dengan School Management, website SchoolManagement membawa pengalaman pendidikan ke tingkat yang lebih tinggi, mendukung efektivitas, transparansi, dan kemudahan akses dalam mengelola berbagai aspek kegiatan sekolah seperti administrasi sekolah, manajemen siswa, keuangan dan lain-lain.
+
+Website SchoolManagement yang dibuat dengan **Python**, **Django**, dan **sqlite** memiliki beberapa kelebihan, yaitu :
+> Tampilan website yang mudah dipahami dan Transparansi
+
+> Komunikatif dan Efektivitas
+
+> Lebih cepat dan efisien
+
+> Interaktif
+
+
+Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang umumnya digunakan oleh aplikasi berbasis Python yang menggunakan SQLite sebagai sistem manajemen basis data (DBMS). SQLite adalah library C yang memberikan fungsi lengkap sebuah basis data SQL tanpa memerlukan server terpisah dan pengaturan konfigurasi yang kompleks. SQLite adalah DBMS self-contained yang dapat digunakan dengan mudah dan ringan. Dalam konteks Django sebuah framework web Python, **db.sqlite3** biasanya muncul sebagai file database default ketika kita membuat proyek baru. Django menggunakan SQLite sebagai database default karena kemudahan konfigurasi dan kecocokan dengan banyak proyek kecil hingga menengah. 
+
+### Website ini memiliki fitur-fitur berikut:
+
+> **Admin**
+- Admin dapat mendaftarkan akun mereka sendiri tanpa persetujuan dari pihak lain. Setelah akun berhasil dibuat, admin dapat melakukan login untuk mengakses sistem.
+
+- Admin dapat mengelola jumlah siswa dan jumlah guru yang ingin mendapatkan pekerjaan/penerimaan di sekolahnya.
+
+- Admin dapat menyetujui dan menghapus/membatalkan permintaan pendaftaran siswa/guru.
+
+- Admin dapat memperbarui detail siswa/guru mana pun.
+
+- Admin dapat mengumumkan pemberitahuan.
+
+
+> **Guru**
+
+- Guru akan melamar/mendaftar pekerjaan. Jika terpilih maka akun akan dibuat dan disetujui oleh admin.
+
+- Guru dapat mengakses dashboard website SchoolManagement.
+
+- Guru dapat mencatat kehadiran kelas mana pun dan melihat kehadiran mereka nanti.
+
+- Guru dapat mempublikasikan/mengumumkan pemberitahuan kepada siswa seperti penyerahan tugas.
+
+
+> **Siswa**
+
+- Siswa akan mengambil penerimaan/pendaftaran.
+
+- Siswa dapat mengakses dashboard website SchoolManagement, jika akun nya sudah disetujui oleh admin.
+
+- Siswa dapat melihat detail seperti kehadiran.
+
+
+### Which Is Used
+
+1. **Django**
+   
+   Django adalah sebuah framework web berbasis Python yang dirancang untuk mempermudah pengembangan aplikasi web. Django menyediakan sejumlah alat dan fitur bawaan untuk mempercepat pembuatan aplikasi web dengan
+   menyederhanakan tugas-tugas umum.
+
+   Dalam sistem SchoolManagement, Django digunakan untuk membuat struktur aplikasi web, membuat model database dan mempermudah penggunaan aplikasi web.
+
+
+2. **Python**
+
+    Python adalah bahasa pemrograman tingkat tinggi yang sangat populer, dirancang untuk menyediakan sintaksis yang jelas dan mudah dibaca. Dalam sistem OnlineQuiz, Python digunakan sebagai bahasa pemrograman utama untuk membuat aplikasi web.
+
+
+3. **SQLite**
+   
+   
+   SQLite adalah sistem manajemen basis data (DBMS) yang bersifat serverless, self-contained, dan bersifat transaksional. Ini berarti SQLite tidak memerlukan server terpisah untuk mengelola basis data, dan seluruh basis
+   data disimpan dalam satu file tunggal yang dapat diakses langsung dari program aplikasi.
+
+   Dalam sistem SchoolManagement, SQLite digunakan sebagai database untuk menyimpan data pengguna, jumlah siswa, guru dan kelas, data kehadiran dan lain-lain.
+
+
+4. **VSCode**
+
+
+   Untuk mengedit code, kami menggunakan Visual Studio Code (VSCode). Visual Studio Code (VSCode) adalah editor kode sumber sumber terbuka dan ringan yang dikembangkan oleh Microsoft. Visual Studio Code sering digunakan oleh para pengembang perangkat lunak untuk proyek-proyek pengembangan perangkat lunak, pemrograman web, dan pengembangan aplikasi lintas platform. Kelebihan dalam ekstensibilitas dan ekosistem ekstensi yang kaya menjadikannya pilihan populer di komunitas pengembangan perangkat lunak.
+
+
+
+### How To Run This Project?
+
+1. **Instalasi Python**
+
+- Unduh Python dari situs resminya : https://www.python.org/downloads/
+
+- Saat instalasi, pastikan untuk memberi centang pada kotak "Add Python to PATH". Ini akan memudahkan kita dalam menjalankan Python melalui perintah di terminal.
+
+3. **Mengunduh dan menyiapkan project**
+   ```
+   https://github.com/syifaaurellia/OnlineQuiz.git
+   ```
+
+- Silahkan clone repository di atas atau download ZIP, kemudian extract file ZIP tersebut ke sebuah folder.
