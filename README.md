@@ -1,4 +1,4 @@
-# SchoolManagement
+# School-Management
 
 ## Anggota Kelompok <br>
 
