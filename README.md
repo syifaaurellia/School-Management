@@ -96,8 +96,20 @@ Website ini menggunakan database **db.sqlite3** yaitu sebuah file database yang 
 
 
    Untuk mengedit code, kami menggunakan Visual Studio Code (VSCode). Visual Studio Code (VSCode) adalah editor kode sumber sumber terbuka dan ringan yang dikembangkan oleh Microsoft. Visual Studio Code sering digunakan oleh para pengembang perangkat lunak untuk proyek-proyek pengembangan perangkat lunak, pemrograman web, dan pengembangan aplikasi lintas platform. Kelebihan dalam ekstensibilitas dan ekosistem ekstensi yang kaya menjadikannya pilihan populer di komunitas pengembangan perangkat lunak.
+   
+
+6. **Bootstrap**
 
 
+   Bootstrap adalah sebuah kerangka kerja (framework) sumber terbuka yang digunakan untuk pengembangan situs web dan aplikasi seluler. Diciptakan oleh tim pengembang Twitter, Bootstrap menyediakan kumpulan alat dan gaya desain yang memudahkan pengembang dalam membuat tata letak yang responsif dan menarik secara visual.
+
+
+7. **jQuery**
+
+
+   jQuery adalah sebuah pustaka JavaScript yang ringan dan cepat yang menyederhanakan manipulasi dokumen HTML, penanganan peristiwa, animasi, dan berbagai tugas pengembangan web lainnya. Dengan menyediakan antarmuka yang mudah digunakan dan lintas peramban, jQuery membantu pengembang dalam membuat situs web yang responsif dan dinamis dengan lebih efisien.
+
+   
 
 ### How To Run This Project
 
